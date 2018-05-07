@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V35.DSTF">
+	<patrolpoint type="patrolpoint" name="本体外观" sn="P0">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="油位计指示" sn="P5">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>liquidlevel</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="呼吸器" sn="P11">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>identifycolor</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="本体测温" sn="P50">
+		<patrolheight>2</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="接线板测温" sn="P55">
+		<patrolheight>2</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

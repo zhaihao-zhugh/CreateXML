@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V220.DCT">
+	<patrolpoint type="patrolpoint" name="本体外观" sn="P0">
+		<patrolheight>7</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="SF6气体压力" sn="P1">
+		<patrolheight>4</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname>Mpa</unitname>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="本体温度" sn="P50">
+		<patrolheight>7</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="接线板温度" sn="P55">
+		<patrolheight>7</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

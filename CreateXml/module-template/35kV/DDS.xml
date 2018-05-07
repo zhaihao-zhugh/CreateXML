@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V35.DDS">
+	<patrolpoint type="patrolpoint" name="本体外观" sn="P0">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="分合状态" datatype="1" sn="P4">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>switch</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="A相动静触头啮合处测温" sn="P53A">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="B相动静触头啮合处测温" sn="P53B">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="C相动静触头啮合处测温" sn="P53C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="A相接线板测温" sn="P51A">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="B相接线板测温" sn="P51B">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="C相接线板测温" sn="P51C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

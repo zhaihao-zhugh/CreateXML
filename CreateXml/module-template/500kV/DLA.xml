@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V500.DLA">
+	<patrolpoint type="patrolpoint" name="本体外观" sn="P0">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="放电电流" sn="P6">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="放电次数" sn="P7">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>digitmeterwithbit</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="本体测温" sn="P50">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V35.DLA">
+	<patrolpoint type="patrolpoint" name="本体外观" sn="P0">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="A相放电电流" sn="P6A">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="B相放电电流" sn="P6B">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="C相放电电流" sn="P6C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="A相放电次数" sn="P7A">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>digitmeterwithbit</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="B相放电次数" sn="P7B">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>digitmeterwithbit</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="C相放电次数" sn="P7C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>digitmeterwithbit</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="A相本体测温" sn="P50A">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="B相本体测温" sn="P50B">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="C相本体测温" sn="P50C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

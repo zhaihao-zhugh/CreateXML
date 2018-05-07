@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V35.DGS">
+	<patrolpoint type="patrolpoint" name="分合状态" datatype="1" sn="P4">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>switch</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

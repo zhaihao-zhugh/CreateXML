@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V0.DTF">
+	<patrolpoint type="patrolpoint" name="本体正面外观" datatype="1" sn="P0A">
+		<patrolheight>2.5</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="本体反面外观" datatype="1" sn="P0B">
+		<patrolheight>2.5</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="高压侧套管外观" datatype="1" sn="P0C">
+		<patrolheight>5</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中压侧套管外观" datatype="1" sn="P0D">
+		<patrolheight>4</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="低压侧套管外观" datatype="1" sn="P0E">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中性点套管外观" datatype="1" sn="P0F">
+		<patrolheight>3</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+
+	<patrolpoint type="patrolpoint" name="变压器油位" sn="P5A">
+		<patrolheight>1.2</patrolheight>
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="油封杯油位" sn="P5B">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>liquidlevel</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="呼吸器" sn="P11">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>identifycolor</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+
+	<patrolpoint type="patrolpoint" name="高压侧套管油位" sn="P5C">
+		<patrolheight>5</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中压侧套管油位" sn="P5D">
+		<patrolheight>4</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中性点套管油位" sn="P5E">
+		<patrolheight>4</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+
+	<patrolpoint type="patrolpoint" name="高压侧油温" sn="P10A">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="高压侧绕温" sn="P11A">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+
+	<patrolpoint type="patrolpoint" name="中压侧油温" sn="P10B">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中压侧绕温" sn="P11B">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+
+	<patrolpoint type="patrolpoint" name="低压侧油温" sn="P10C">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="低压侧绕温" sn="P11C">
+		<patrolheight>1.2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>analogmeterwithneedle</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	
+	<patrolpoint type="patrolpoint" name="本体正面温度" sn="P50A">
+		<patrolheight>2</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="本体反面温度" sn="P50B">
+		<patrolheight>2</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="高压侧套管接线板温度" sn="P55A">
+		<patrolheight>5</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中压侧套管接线板温度" sn="P55B">
+		<patrolheight>4</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="低压侧套管接线板温度" sn="P55C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中性点套管接线板温度" sn="P55D">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="高压侧套管温度" sn="P59A">
+		<patrolheight>5</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中压侧套管温度" sn="P59B">
+		<patrolheight>4</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="低压侧套管温度" sn="P59C">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="中性点套管温度" sn="P59D">
+		<patrolheight>3</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+</template>

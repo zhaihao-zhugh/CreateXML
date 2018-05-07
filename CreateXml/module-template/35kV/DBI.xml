@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template sn="SAS.V35.DBI">
+	<patrolpoint type="patrolpoint" name="直流融冰变压器本体外观" sn="P0">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>framedifference</ivstype>
+		<pathpointid>0</pathpointid>
+		<unitname/>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="直流融冰变压器呼吸器" sn="P11">
+		<patrolheight>2</patrolheight> 
+		<patroltype>0</patroltype>
+		<ivstype>identifycolor</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+	<patrolpoint type="patrolpoint" name="直流融冰变压器油温" sn="P58">
+		<patrolheight>2</patrolheight> 
+		<patroltype>1</patroltype>
+		<ivstype>infraredthermometer</ivstype>
+		<unitname/>
+		<pathpointid>0</pathpointid>
+		<lock>0</lock>
+	</patrolpoint>
+</template>
